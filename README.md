@@ -299,15 +299,3 @@ Silakan:
 - [Lihat REFERENCES.md](docs/REFERENCES.md) untuk daftar lengkap
 
 ---
-
-## 📝 Changelog
-
-### Version 1.0 (2024-05-23)
-- ✅ Initial repository setup
-- ✅ Protein preparation workflow
-- ✅ Ligand preparation for docking
-- ✅ Docking execution scripts
-- ✅ Binding affinity analysis
-- ✅ Interaction analysis tools
-- ✅ Visualization utilities
-
