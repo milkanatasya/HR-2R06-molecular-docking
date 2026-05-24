@@ -175,23 +175,23 @@ cd docs
 │                     DATA PREPARATION                        │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│  1. Download struktur 2R06 dari RCSB PDB                  │
-│     └─> UCSF Chimera: Cleaning struktur                   │
+│  1. Download struktur 2R06 dari RCSB PDB                    │
+│     └─> UCSF Chimera: Cleaning struktur                     │
 │                                                             │
-│  2. Preparasi Protein (AutoDockTools)                     │
-│     └─> Add polar hydrogens                               │
-│     └─> Assign Gasteiger charges                          │
-│     └─> Convert to PDBQT format                           │
+│  2. Preparasi Protein (AutoDockTools)                       │
+│     └─> Add polar hydrogens                                 │
+│     └─> Assign Gasteiger charges                            │
+│     └─> Convert to PDBQT format                             │
 │                                                             │
-│  3. Preparasi Ligand (PyRx/AutoDockTools)                │
-│     └─> 3D coordinate generation                          │
-│     └─> Rotatable bonds identification                    │
-│     └─> Assign charges                                    │
-│     └─> Convert to PDBQT format                           │
+│  3. Preparasi Ligand (PyRx/AutoDockTools)                   │
+│     └─> 3D coordinate generation                            │
+│     └─> Rotatable bonds identification                      │
+│     └─> Assign charges                                      │
+│     └─> Convert to PDBQT format                             │
 │                                                             │
-│  4. Define Docking Grid (AutoDockTools)                  │
-│     └─> Tentukan active site                             │
-│     └─> Set grid parameters (.gpf)                       │
+│  4. Define Docking Grid (AutoDockTools)                     │
+│     └─> Tentukan active site                                │
+│     └─> Set grid parameters (.gpf)                          │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
                            ↓
@@ -199,9 +199,9 @@ cd docs
 │                  MOLECULAR DOCKING                          │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│  5. Run Docking (PyRx)                                     │
-│     └─> AutoDock Vina algorithm                           │
-│     └─> Generate poses & binding energies (ΔG)           │
+│  5. Run Docking (PyRx)                                      │
+│     └─> AutoDock Vina algorithm                             │
+│     └─> Generate poses & binding energies (ΔG)              │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
                            ↓
@@ -209,21 +209,21 @@ cd docs
 │                RESULTS ANALYSIS                             │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│  6. Binding Affinity Analysis (Python scripts)            │
-│     └─> Compare ΔG values                                 │
-│     └─> Rank compounds                                    │
-│     └─> Statistical analysis                              │
+│  6. Binding Affinity Analysis (Python scripts)              │
+│     └─> Compare ΔG values                                   │
+│     └─> Rank compounds                                      │
+│     └─> Statistical analysis                                │
 │                                                             │
-│  7. Interaction Analysis (DS Visualizer)                  │
-│     └─> H-bond networks                                   │
-│     └─> Hydrophobic contacts                              │
-│     └─> Van der Waals interactions                        │
-│     └─> Salt bridges                                      │
+│  7. Interaction Analysis (DS Visualizer)                    │
+│     └─> H-bond networks                                     │
+│     └─> Hydrophobic contacts                                │
+│     └─> Van der Waals interactions                          │
+│     └─> Salt bridges                                        │
 │                                                             │
-│  8. Visualization (PyMOL, Chimera)                        │
-│     └─> 3D complex structure                              │
-│     └─> Interaction diagrams                              │
-│     └─> Publication-ready figures                         │
+│  8. Visualization (PyMOL, Chimera)                          │
+│     └─> 3D complex structure                                │
+│     └─> Interaction diagrams                                │
+│     └─> Publication-ready figures                           │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -248,27 +248,6 @@ cd docs
 - **Apigenin**: ΔG = -10 kcal/mol
 - **Kaempferol**: ΔG = -8.1 kcal/mol
 - **Baicalein**: ΔG = -8.1 kcal/mol
-
----
-
-## 📈 **Output Examples** 
-
-### 1. Binding Affinity Distribution
-![Affinity Distribution](figures/affinity_distribution.png)
-
-### 2. Top Compound Docking Pose
-![Docking Pose](figures/top_docking_poses.png)
-
-### 3. Interaction Diagram
-```
-Compound_A vs HRV 2R06 Active Site:
-
-HIS181 ----[H-bond]---- O (Compound_A)
-              
-TRP200 ----[π-π stacking]---- Aromatic ring (Compound_A)
-
-LEU85, MET92 ----[Hydrophobic]---- Alkyl chain (Compound_A)
-```
 
 ---
 
