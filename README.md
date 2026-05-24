@@ -10,7 +10,7 @@ Proyek ini melakukan analisis **molecular docking** untuk menginvestigasi intera
 4. **Apigenin** dari tanaman Seledri (*Apium graveolens*)
 5. **Quercetin** dari Sirsak (*Annona muricata*)
 
-##Tujuan Project
+## Tujuan Project
 Penelitian ini bertujuan untuk mengidentifikasi potensi inhibitor alami untuk virus rhinovirus melalui pendekatan *structure-bases drug discovery* menggunakan tanaman obat tradisional Indonesia.
 1. Menganalisis potensi inhibitor HRV 2R06 dari 5 senyawa tanaman obat lokal
 2. Membandingkan binding affinity andrographolide, baicalein, kaempferol, apigenin, dan quercetin
